@@ -23,7 +23,7 @@ acronym = {
 }
 #we're creating a function called onClick
 def onClick():
-    # it gets whatever the user inputs inside the mystery
+    # it gets whatever the user inputs inside the my entry
     #and assigns it to the variable called word
     word = myEntry.get()
     # we get the meaning of the word from the acronym dictionary and assign it to the variable called meaning
@@ -37,7 +37,7 @@ def onClick():
     myEntry.delete("0",tkinter.END)
 
 window = tkinter.Tk()
-#we're setting the window title
+#w're setting the window title
 window.title("Acronym Finder")
 #we're setting the size of the window to 500x500
 #which is a perfect square
